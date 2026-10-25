@@ -1,42 +1,42 @@
 modLoader = "javafml"
 loaderVersion = "[47,)"
 #issueTrackerURL = ""
-license = "Insert License Here"
+license = "All Rights Reserved"
 
 [[mods]]
-modId = "myjaddon"
+modId = "jcraftotp"
 version = "${version}"
-displayName = "JCraft Example Addon"
-authors = "Me!"
+displayName = "JCraft Over The Top"
+authors = "Ayutac"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Another JCraft Addon, but made by a JCraft dev
 '''
-logoFile = "assets/myjaddon/icon.png"
+logoFile = "assets/jcraftotp/icon.png"
 
-[[dependencies.myjaddon]]
+[[dependencies.jcraftotp]]
 modId = "forge"
 mandatory = true
 versionRange = "[47,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.myjaddon]]
+[[dependencies.jcraftotp]]
 modId = "minecraft"
 mandatory = true
 versionRange = "[1.20.1,)"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies.myjaddon]]
+[[dependencies.jcraftotp]]
 modId = "architectury"
 mandatory = true
 versionRange = "[9.2.14,)"
 ordering = "AFTER"
 side = "BOTH"
 
-[[dependencies.myjaddon]]
+[[dependencies.jcraftotp]]
 modId = "jcraft"
 mandatory = true
-versionRange = "[0.18.0,)"
+versionRange = "[0.18.2,)"
 ordering = "AFTER"
 side = "BOTH"

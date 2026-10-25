@@ -7,7 +7,7 @@ pluginManagement {
     }
 }
 
-rootProject.name = 'myjaddon'
+rootProject.name = 'jcraftotp'
 
 include 'common'
 include 'fabric'
