@@ -1,7 +1,7 @@
 package studio.abos.mc.jcraftotp.common.stand;
 
 import studio.abos.mc.jcraftotp.JCraftOtp;
-import studio.abos.mc.jcraftotp.common.register.StandTypeRegistry;
+import studio.abos.mc.jcraftotp.api.registry.StandTypeRegistry;
 import mod.azure.azurelib.animation.dispatch.command.AzCommand;
 import mod.azure.azurelib.animation.play_behavior.AzPlayBehaviors;
 import net.arna.jcraft.JCraft;

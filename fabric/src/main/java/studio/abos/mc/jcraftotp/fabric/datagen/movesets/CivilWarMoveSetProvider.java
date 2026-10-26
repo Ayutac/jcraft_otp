@@ -1,6 +1,6 @@
 package studio.abos.mc.jcraftotp.fabric.datagen.movesets;
 
-import studio.abos.mc.jcraftotp.common.register.StandTypeRegistry;
+import studio.abos.mc.jcraftotp.api.registry.StandTypeRegistry;
 import studio.abos.mc.jcraftotp.common.stand.CivilWarEntity;
 import net.arna.jcraft.api.attack.MoveMap;
 import net.arna.jcraft.api.attack.MoveSet;

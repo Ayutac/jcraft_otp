@@ -1,6 +1,6 @@
 package studio.abos.mc.jcraftotp.fabric.datagen;
 
-import studio.abos.mc.jcraftotp.common.register.StandTypeRegistry;
+import studio.abos.mc.jcraftotp.api.registry.StandTypeRegistry;
 import studio.abos.mc.jcraftotp.common.stand.CivilWarEntity;
 import net.arna.jcraft.api.datagen.JCraftStandDataProvider;
 import net.arna.jcraft.api.stand.StandData;

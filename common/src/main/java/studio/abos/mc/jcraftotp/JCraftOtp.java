@@ -1,7 +1,7 @@
 package studio.abos.mc.jcraftotp;
 
-import studio.abos.mc.jcraftotp.common.register.EntityTypeRegistry;
-import studio.abos.mc.jcraftotp.common.register.StandTypeRegistry;
+import studio.abos.mc.jcraftotp.api.registry.EntityTypeRegistry;
+import studio.abos.mc.jcraftotp.api.registry.StandTypeRegistry;
 import net.minecraft.resources.ResourceLocation;
 
 public final class JCraftOtp {

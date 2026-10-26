@@ -1,6 +1,6 @@
-package studio.abos.mc.jcraftotp.fabric.client.renderer;
+package studio.abos.mc.jcraftotp.client.renderer;
 
-import studio.abos.mc.jcraftotp.common.register.StandTypeRegistry;
+import studio.abos.mc.jcraftotp.api.registry.StandTypeRegistry;
 import studio.abos.mc.jcraftotp.common.stand.CivilWarEntity;
 import net.arna.jcraft.client.renderer.entity.stands.StandEntityRenderer;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;

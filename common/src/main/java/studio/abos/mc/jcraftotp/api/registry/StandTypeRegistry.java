@@ -1,4 +1,4 @@
-package studio.abos.mc.jcraftotp.common.register;
+package studio.abos.mc.jcraftotp.api.registry;
 
 import studio.abos.mc.jcraftotp.JCraftOtp;
 import dev.architectury.registry.registries.DeferredRegister;

@@ -1,4 +1,4 @@
-package studio.abos.mc.jcraftotp.common.register;
+package studio.abos.mc.jcraftotp.api.registry;
 
 import studio.abos.mc.jcraftotp.JCraftOtp;
 import studio.abos.mc.jcraftotp.common.stand.CivilWarEntity;

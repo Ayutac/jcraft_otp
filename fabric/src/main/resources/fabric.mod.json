@@ -19,7 +19,7 @@
       "studio.abos.mc.jcraftotp.fabric.JCraftOtpFabric"
     ],
     "client": [
-      "studio.abos.mc.jcraftotp.fabric.client.JCraftOtpFabricClient"
+      "studio.abos.mc.jcraftotp.client.JCraftOtpFabricClient"
     ],
     "fabric-datagen": [
       "studio.abos.mc.jcraftotp.fabric.datagen.JCraftOtpDataGen"
