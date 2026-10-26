@@ -5,6 +5,7 @@ import lombok.NonNull;
 import lombok.Setter;
 import net.arna.jcraft.api.attack.IAttacker;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.tags.FluidTags;
 import net.minecraft.world.entity.LivingEntity;
 import studio.abos.mc.jcraftotp.api.component.living.CommonCivilWarComponent;
 
@@ -52,6 +53,9 @@ public abstract class CommonCivilWarComponentImpl implements CommonCivilWarCompo
         }
         if (target.position().distanceToSqr(summoner.getUserOrThrow().position()) > summonRadiusSqr ||
                 target.position().distanceToSqr(living.position()) > targetRadiusSqr) {
+            living.discard();
+        }
+        if (living.level().getFluidState(target.blockPosition()).is(FluidTags.WATER)) {
             living.discard();
         }
     }

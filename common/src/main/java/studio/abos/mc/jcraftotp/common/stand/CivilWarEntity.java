@@ -1,6 +1,7 @@
 package studio.abos.mc.jcraftotp.common.stand;
 
 import lombok.NonNull;
+import net.minecraft.tags.FluidTags;
 import net.minecraft.util.RandomSource;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntitySelector;
@@ -90,6 +91,7 @@ public class CivilWarEntity extends StandEntity<CivilWarEntity, CivilWarEntity.S
         level().getEntities(this, AABB.ofSize(position(), SUMMON_RADIUS, SUMMON_RADIUS, SUMMON_RADIUS), selector).stream()
                 .map(LivingEntity.class::cast)
                 .filter(target -> !ComponentPlatformUtils.getCivilWarComponent(target).isGhost())
+                .filter(target -> !level().getFluidState(target.blockPosition()).is(FluidTags.WATER))
                 .forEach(this::summonGhostOn);
     }
 
