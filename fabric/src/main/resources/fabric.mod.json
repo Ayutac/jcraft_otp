@@ -21,6 +21,9 @@
     "client": [
       "studio.abos.mc.jcraftotp.client.JCraftOtpFabricClient"
     ],
+    "cardinal-components": [
+      "studio.abos.mc.jcraftotp.fabric.common.component.Components"
+    ],
     "fabric-datagen": [
       "studio.abos.mc.jcraftotp.fabric.datagen.JCraftOtpDataGen"
     ]
@@ -34,5 +37,10 @@
     "java": ">=17",
     "architectury": ">=9.2.14",
     "jcraft": ">=0.18.2"
+  },
+  "custom": {
+    "cardinal-components": [
+      "jcraftotp:civil_war"
+    ]
   }
 }
