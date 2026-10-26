@@ -17,6 +17,7 @@ import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.MOD, modid = JCraftOtp.MOD_ID)
 public class JCraftOtpForgeClient {
+
     @SubscribeEvent
     public static void handleClientSetup(final FMLClientSetupEvent event) {
         JCraftOtpClient.init();
@@ -31,4 +32,5 @@ public class JCraftOtpForgeClient {
             }
         });
     }
+
 }

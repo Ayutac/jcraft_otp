@@ -8,6 +8,7 @@ import studio.abos.mc.jcraftotp.JCraftOtp;
 
 @Mod(JCraftOtp.MOD_ID)
 public final class JCraftOtpForge {
+
     public JCraftOtpForge(FMLJavaModLoadingContext ctx) {
         // Submit our event bus to let Architectury API register our content on the right time.
         EventBuses.registerModEventBus(JCraftOtp.MOD_ID, ctx.getModEventBus());
@@ -15,4 +16,5 @@ public final class JCraftOtpForge {
         // Run our common setup.
         JCraftOtp.init();
     }
+    
 }
