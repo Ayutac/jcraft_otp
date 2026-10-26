@@ -58,12 +58,12 @@ public abstract class CommonCivilWarComponentImpl implements CommonCivilWarCompo
 
     @Override
     public void readFromNbt(@NonNull final CompoundTag compoundTag) {
-
+        // intentionally left empty
     }
 
     @Override
     public void writeToNbt(@NonNull final CompoundTag compoundTag) {
-
+        // intentionally left empty
     }
 
 }
