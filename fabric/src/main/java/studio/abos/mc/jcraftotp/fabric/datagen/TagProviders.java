@@ -38,6 +38,7 @@ public class TagProviders {
             doesntCreateCwGhosts.add(JEntityTypeRegistry.GE_TREE.getId());
             doesntCreateCwGhosts.add(JEntityTypeRegistry.GE_VINES.getId());
             doesntCreateCwGhosts.add(JEntityTypeRegistry.ROAD_ROLLER.getId());
+            doesntCreateCwGhosts.add(JEntityTypeRegistry.PLAYER_CLONE.getId());
         }
 
     }
