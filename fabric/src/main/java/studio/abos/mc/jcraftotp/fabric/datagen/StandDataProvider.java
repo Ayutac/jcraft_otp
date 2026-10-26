@@ -9,8 +9,8 @@ import net.minecraft.resources.ResourceLocation;
 
 import java.util.function.BiConsumer;
 
-public class JCraftOtpStandDataProvider extends JCraftStandDataProvider {
-    public JCraftOtpStandDataProvider(FabricDataOutput dataOutput) {
+public class StandDataProvider extends JCraftStandDataProvider {
+    public StandDataProvider(FabricDataOutput dataOutput) {
         super(dataOutput);
     }
 

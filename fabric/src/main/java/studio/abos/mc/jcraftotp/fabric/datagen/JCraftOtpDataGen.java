@@ -9,6 +9,7 @@ public class JCraftOtpDataGen implements DataGeneratorEntrypoint {
     public void onInitializeDataGenerator(FabricDataGenerator dataGen) {
         FabricDataGenerator.Pack pack = dataGen.createPack();
         pack.addProvider(CivilWarMoveSetProvider::new);
-        pack.addProvider(JCraftOtpStandDataProvider::new);
+        pack.addProvider(StandDataProvider::new);
+        pack.addProvider(TagProviders.EntitiyTags::new);
     }
 }
