@@ -19,7 +19,7 @@
       "studio.abos.mc.jcraftotp.fabric.JCraftOtpFabric"
     ],
     "client": [
-      "studio.abos.mc.jcraftotp.client.JCraftOtpFabricClient"
+      "studio.abos.mc.jcraftotp.fabric.client.JCraftOtpFabricClient"
     ],
     "cardinal-components": [
       "studio.abos.mc.jcraftotp.fabric.common.component.Components"

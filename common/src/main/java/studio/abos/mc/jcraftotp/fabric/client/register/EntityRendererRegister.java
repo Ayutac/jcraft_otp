@@ -1,6 +1,6 @@
-package studio.abos.mc.jcraftotp.client.register;
+package studio.abos.mc.jcraftotp.fabric.client.register;
 
-import studio.abos.mc.jcraftotp.client.renderer.CivilWarRenderer;
+import studio.abos.mc.jcraftotp.fabric.client.renderer.CivilWarRenderer;
 import studio.abos.mc.jcraftotp.api.registry.EntityTypeRegistry;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.world.entity.Entity;

@@ -1,6 +1,6 @@
-package studio.abos.mc.jcraftotp.client;
+package studio.abos.mc.jcraftotp.fabric.client;
 
-import studio.abos.mc.jcraftotp.client.register.EntityRendererRegister;
+import studio.abos.mc.jcraftotp.fabric.client.register.EntityRendererRegister;
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.rendering.v1.EntityRendererRegistry;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;

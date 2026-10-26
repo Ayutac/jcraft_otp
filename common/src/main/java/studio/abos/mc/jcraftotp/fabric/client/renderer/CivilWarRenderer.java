@@ -1,4 +1,4 @@
-package studio.abos.mc.jcraftotp.client.renderer;
+package studio.abos.mc.jcraftotp.fabric.client.renderer;
 
 import studio.abos.mc.jcraftotp.api.registry.StandTypeRegistry;
 import studio.abos.mc.jcraftotp.common.stand.CivilWarEntity;

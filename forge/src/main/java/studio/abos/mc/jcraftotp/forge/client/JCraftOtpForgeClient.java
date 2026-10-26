@@ -1,8 +1,8 @@
 package studio.abos.mc.jcraftotp.forge.client;
 
 import studio.abos.mc.jcraftotp.JCraftOtp;
-import studio.abos.mc.jcraftotp.client.JCraftOtpClient;
-import studio.abos.mc.jcraftotp.client.register.EntityRendererRegister;
+import studio.abos.mc.jcraftotp.fabric.client.JCraftOtpClient;
+import studio.abos.mc.jcraftotp.fabric.client.register.EntityRendererRegister;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.EntityType;
